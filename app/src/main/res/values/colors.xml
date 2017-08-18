@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+
+    <color name="view_titlebar_back">#FAFAFA</color><!--头部标题栏背景色-->
+    <color name="view_titlebar_back_old">#FFFFFF</color><!--头部标题栏背景色-->
+    <color name="view_titlebar_bottom_border">#E5E5E5</color><!--头部标题栏下边线-->
+    <color name="view_title_font_color">#FFA8B7</color><!--头部标题栏标题字颜色-->
+    <color name="line">#EFEFEF</color><!--底部栏上方分割线-->
+    <color name="pink">#FF9BAC</color><!--主题色 粉色-->
+    <color name="gray">#909090</color><!--底部栏 字的 灰色-->
+    <color name="light_gray">#F5F5F5</color><!--APP底色  浅灰色-->
+    <color name="search_border_gray">#F5F5F5</color><!--搜索框边框  浅灰色-->
+    <color name="white">#FFFFFF</color><!--白色-->
+    <color name="light_white">#FaFaFa</color><!--浅白色-->
+    <color name="c_6EF2DE">#6EF2DE</color>
+    <color name="c_34D3BC">#34D3BC</color>
+    <color name="black">#000000</color><!--黑色-->
+    <color name="light_blue">#6ef2de</color><!--首页色块 蓝色-->
+    <color name="light_pink">#ff7f95</color><!--首页色块 粉色-->
+    <color name="light_red">#EC2121</color><!--首页 最新 最热 红色-->
+    <color name="c_333333">#333333</color><!--首页 黑字 黑色-->
+    <color name="c_555555">#555555</color><!--首页 黑字 黑色-->
+    <color name="c_666666">#666666</color><!--首页 黑字 黑色-->
+    <color name="background_fcffff">#fcffff</color><!--问诊答题框背景-->
+    <color name="btn_ok_press">#f58d9f</color><!--头部标题栏标题字颜色-->
+    <color name="hint_text_color">#cccccc</color><!--输入框提示字颜色-->
+    <color name="c_55000000">#55000000</color><!--问诊部分半透明色-->
+    <color name="c_cccccc">#cccccc</color><!--首页 黑字 黑色-->
+    <color name="c_f5f5f5">#f5f5f5</color><!--listview分割线 -->
+    <color name="c_fafafa">#fafafa</color>
+    <color name="c_f0f2f2">#f0f2f2</color>
+    <color name="c_fcfcfc">#fcfcfc</color>
+    <color name="c_ffa8b7">#FFA8B7</color>
+    <color name="c_f991a3">#f991a3</color>
+    <color name="c_888888">#888888</color>
+    <color name="c_ffffff">#ffffff</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_e3e3e3">#e3e3e3</color>
+    <color name="c_6ef2de">#6ef2de</color>
+    <color name="c_FA4D47">#FA4D47</color>
+    <color name="c_11000000">#11000000</color>
+    <color name="c_838383">#838383</color>
+    <color name="c_A0A0A0">#A0A0A0</color>
+    <color name="c_84F5E5">#84F5E5</color>
+    <color name="c_8B8B8B">#8B8B8B</color>
+    <color name="c_6EF2DF">#6EF2DF</color>
+    <color name="c_D5D6D6">#D5D6D6</color>
+    <color name="c_EDF2F2">#EDF2F2</color>
+
+    <color name="c_e5e5e5">#e5e5e5</color>
+    <color name="c_50020202">#50020202</color>
+    <color name="c_181818">#181818</color>
+    <color name="c_c5c5c5">#C5C5C5</color>
+    <color name="c_f7f7f7">#f7f7f7</color>
+
+    <color name="c_00000000">#00000000</color><!--全透明 -->
+    <color name="text_blue">#538BFE</color>
+    <color name="back_blue">#2979EA</color>
+    <color name="c_f7faff">#F7FAFF</color> <!--订单list中部背景色 -->
+    <color name="c_fbfcff">#FBFCFF</color> <!--分割背景色 -->
+    <color name="c_fef200">#FEF200</color> <!--登录金色边框 -->
+    <color name="c_ececec">#ECECEC</color> <!--分割线 -->
+    <color name="c_f6f9ff">#F6F9FF</color> <!--白色线面分割线 -->
+    <color name="c_4d96ff">#4D96FF</color> <!--不接单背景色 -->
+
+</resources>

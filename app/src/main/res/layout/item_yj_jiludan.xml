@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/yj_jiludan_iv_head"
+        android:layout_width="@dimen/x75"
+        android:layout_height="@dimen/x75"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginTop="@dimen/x36"
+        android:src="@mipmap/touxiang" />
+
+    <TextView
+        android:id="@+id/yj_jiludan_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/yj_jiludan_iv_head"
+        android:layout_toRightOf="@id/yj_jiludan_iv_head"
+        android:paddingLeft="@dimen/x24"
+        android:text="张三"
+        android:textColor="@color/c_333333"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:id="@+id/yj_jiludan_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/yj_jiludan_iv_head"
+        android:paddingRight="@dimen/x24"
+        android:text="2012.03.05"
+        android:textColor="@color/c_333333"
+        android:textSize="@dimen/tv_24px" />
+
+    <LinearLayout
+        android:id="@+id/jiludan_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yj_jiludan_tv_name"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_toRightOf="@id/yj_jiludan_iv_head"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jiludan_xin1"
+            android:src="@mipmap/xin6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:id="@+id/jiludan_xin2"
+            android:src="@mipmap/xin6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:id="@+id/jiludan_xin3"
+            android:src="@mipmap/xin6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:id="@+id/jiludan_xin4"
+            android:src="@mipmap/xin6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jiludan_xin5"
+            android:layout_marginLeft="@dimen/x8"
+            android:src="@mipmap/xin6" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/yj_jiludan_tv_rb"
+        style="@style/articlelist_item_ratingbar_style"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x22"
+        android:layout_below="@id/yj_jiludan_tv_name"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_toRightOf="@id/yj_jiludan_iv_head"
+        android:numStars="5"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/yj_jiludan_tv_neirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jiludan_ll"
+        android:layout_toRightOf="@id/yj_jiludan_iv_head"
+        android:paddingBottom="@dimen/x5"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:paddingTop="@dimen/x8"
+        android:text="非常好"
+        android:textColor="@color/c_333333"
+        android:textSize="@dimen/tv_24px" />
+
+    <xyd.com.bydshop.customview.MaxGridView
+        android:id="@+id/yj_jiludan_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yj_jiludan_tv_neirong"
+        android:layout_marginRight="@dimen/x24"
+        android:layout_toRightOf="@id/yj_jiludan_iv_head"
+        android:numColumns="3"
+        android:visibility="gone"></xyd.com.bydshop.customview.MaxGridView>
+
+    <View
+        android:id="@+id/yj_jiludan_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_below="@id/yj_jiludan_gv"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/line" />
+
+    <FrameLayout
+        android:id="@+id/yj_jiludan_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yj_jiludan_view"
+        android:background="#FBFCFF"
+        android:visibility="gone">
+
+        <xyd.com.bydshop.customview.MaxListView
+            android:id="@+id/yj_jiludan_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x123"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/x0">
+
+        </xyd.com.bydshop.customview.MaxListView>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/yj_jiludan_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yj_jiludan_ll"
+        android:gravity="end"
+        android:paddingBottom="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:paddingTop="@dimen/x24"
+        android:text="回复"
+        android:visibility="gone"
+        android:textSize="@dimen/tv_24px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x24"
+        android:layout_below="@id/yj_jiludan_tv"
+        android:background="#FBFCFF" />
+</RelativeLayout>

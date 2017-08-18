@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x80"
+    android:textSize="@dimen/tv_24px"
+    android:textColor="@color/c_333333"
+    android:gravity="bottom"
+    android:id="@+id/item_pop_tv"
+    android:paddingBottom="@dimen/x8"
+    android:paddingLeft="@dimen/x24"/>
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/x1"-->
+        <!--android:background="@color/c_A0A0A0"-->
+        <!--android:layout_marginLeft="@dimen/x24"-->
+        <!--android:layout_marginRight="@dimen/x24"/>-->
+
+</LinearLayout>

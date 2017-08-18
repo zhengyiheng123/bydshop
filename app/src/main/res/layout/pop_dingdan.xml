@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_55000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="@color/c_00000000"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c_ffffff"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_marginRight="@dimen/x24"
+                android:id="@+id/pop_dingdan_view"
+                android:background="@mipmap/ic_quanbu" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/pop_dingdan_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x80"
+            android:background="@color/c_ffffff"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/x24"
+            android:text="全部"
+            android:textColor="@color/back_blue"
+            android:textSize="@dimen/tv_24px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginRight="@dimen/x24"
+            android:background="@color/back_blue" />
+
+        <LinearLayout
+            android:id="@+id/popuwindow_list_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/pop_dingdan_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_marginRight="@dimen/x24"
+                android:dividerHeight="@dimen/x0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

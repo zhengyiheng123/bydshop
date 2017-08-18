@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:layout_marginTop="@dimen/x32"
+        android:background="@drawable/bg_calendar">
+
+        <TextView
+            android:id="@+id/txt_select_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_24px" />
+
+        <ImageButton
+            android:id="@+id/img_select_last_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="?android:actionBarItemBackground"
+            android:padding="10dp"
+            android:src="@mipmap/rilizuojian" />
+
+        <ImageButton
+            android:id="@+id/img_select_next_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="?android:actionBarItemBackground"
+            android:padding="10dp"
+            android:src="@mipmap/riliyoujian" />
+    </RelativeLayout>
+
+    <xyd.com.bydshop.calendar.WeekView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24" />
+
+
+    <xyd.com.bydshop.calendar.CalendarView
+        android:id="@+id/rili_calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginTop="@dimen/x36"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="说明："
+            android:textColor="@color/c_666666"
+            android:textSize="@dimen/tv_24px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/shuomingweiwancheng"
+            android:drawablePadding="@dimen/x24"
+            android:paddingLeft="@dimen/x24"
+            android:text="订单未完成"
+            android:textColor="@color/c_666666"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+</LinearLayout>

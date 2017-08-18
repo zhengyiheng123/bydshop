@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_24px"
+        android:id="@+id/ticket_left"
+        android:paddingTop="@dimen/x12"
+        android:paddingBottom="@dimen/x12"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/x12"
+        android:id="@+id/ticket_right"
+        android:paddingBottom="@dimen/x12"
+        android:textSize="@dimen/tv_24px"/>
+</LinearLayout>

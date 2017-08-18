@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#DFDEFD"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/base_title" />
+    <xyd.com.bydshop.recyclerview.ZXLRecyclerView
+        android:id="@+id/push_zxlRv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/x12"
+        android:layout_height="match_parent">
+
+    </xyd.com.bydshop.recyclerview.ZXLRecyclerView>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:id="@+id/push_srl">
+        <ListView
+            android:layout_width="match_parent"
+            android:dividerHeight="0dp"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:id="@+id/push_lv">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

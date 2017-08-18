@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:text="营业时间："
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="请填写具体的营业时间"
+                    android:textColor="@color/c_666666"
+                    android:textSize="@dimen/tv_24px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="星期"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="上午"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="下午"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周一"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_1_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_1_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_1_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_1_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周二"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_2_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_2_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_2_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_2_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周三"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_3_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_3_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_3_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_3_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周四"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_4_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_4_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_4_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_4_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周五"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_5_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_5_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_5_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_5_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周六"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_6_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_6_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_6_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_6_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:background="@color/c_ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:paddingRight="@dimen/x24"
+                    android:text="周日"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_7_morning_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="8:00"
+
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_7_morning_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="12:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x24"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yingye_tv_7_afternoon_start"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="14:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+
+                    <TextView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginLeft="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:background="@color/c_333333" />
+
+                    <TextView
+                        android:id="@+id/yingye_tv_7_afternoon_end"
+                        android:layout_width="@dimen/x120"
+                        android:layout_height="@dimen/x55"
+                        android:background="#EFF6FE"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/c_666666"
+                        android:textSize="@dimen/tv_24px" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x24"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x95"
+                    android:background="@color/c_ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x24"
+                    android:text="特殊情况:"
+                    android:textColor="@color/c_333333"
+                    android:textSize="@dimen/tv_24px" />
+
+                <EditText
+                    android:id="@+id/yingye_tv_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x24"
+                    android:paddingLeft="@dimen/x8"
+                    android:background="#00000000"
+                    android:textColor="@color/c_666666"
+                    android:textSize="@dimen/tv_24px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/yingye_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x95"
+                android:layout_marginBottom="@dimen/x24"
+                android:layout_marginTop="@dimen/x24"
+                android:visibility="visible"
+                android:background="@color/c_ffffff"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x24"
+                android:text="注:若没填写时间则视为默认时间"
+                android:textColor="@color/c_666666"
+                android:textSize="@dimen/tv_24px" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/c_00000000" />
+            <stroke android:width="@dimen/x2"
+                android:color="@color/c_fef200" />
+            <corners android:radius="@dimen/x20"/>
+        </shape>
+    </item>
+
+    <!-- 此处定义只有下边有边框 高度为1像素-->
+    <!--<item-->
+        <!---->
+        <!--android:bottom="@dimen/x1">-->
+        <!--<shape>-->
+            <!--<solid android:color="@color/c_00000000" />-->
+            <!--&lt;!&ndash;<stroke android:width="@dimen/x1" android:color="@color/c_fafafa"/>&ndash;&gt;-->
+        <!--</shape>-->
+    <!--</item>-->
+
+</layer-list>

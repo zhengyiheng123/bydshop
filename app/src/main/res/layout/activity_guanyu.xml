@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#F3F6FF"
+    android:layout_height="match_parent">
+    <include layout="@layout/base_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:textColor="@color/c_333333"
+        android:id="@+id/guanyu_tv_jieshao"
+        android:background="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:layout_marginTop="@dimen/x24"
+        android:drawableRight="@mipmap/jiantou2"
+        android:text="帮预定介绍" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:textColor="@color/c_333333"
+        android:id="@+id/guanyu_tv_tiaowen"
+        android:background="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:layout_marginTop="@dimen/x24"
+        android:drawableRight="@mipmap/jiantou2"
+        android:text="免责声明及相关法律条文" />
+</LinearLayout>

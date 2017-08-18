@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="车次："
+        android:id="@+id/train_checi"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="起点："
+        android:id="@+id/train_qidian"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="终点："
+        android:id="@+id/train_zhongdian"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="出发时间："
+        android:id="@+id/train_chufa"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="到达时间："
+        android:id="@+id/train_daoda"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="时长："
+        android:id="@+id/train_shichang"
+        android:textSize="@dimen/tv_24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x12"
+        android:paddingTop="@dimen/x12"
+        android:text="数量："
+        android:id="@+id/train_shuliang"
+        android:textSize="@dimen/tv_24px" />
+</LinearLayout>

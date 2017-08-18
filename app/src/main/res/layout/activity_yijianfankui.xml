@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FF">
+    <include layout="@layout/base_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x550"
+        android:layout_margin="@dimen/x24"
+        android:background="@color/c_ffffff"
+        android:gravity="start"
+        android:id="@+id/yijian_edt"
+        android:padding="@dimen/x24"
+        android:hint="请留下您的宝贵意见和建议，我们将努力改进~"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最多输入300个字"
+        android:gravity="end"
+        android:textSize="@dimen/tv_24px"
+        android:paddingRight="@dimen/x24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x0"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:background="@drawable/bg_ok"
+        android:text="提交"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:gravity="center"
+        android:id="@+id/yijian_tv_tijiao"
+        android:layout_margin="@dimen/x60"/>
+
+</LinearLayout>

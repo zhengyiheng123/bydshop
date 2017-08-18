@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCFF">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x470"
+    android:layout_margin="@dimen/x24"
+    android:background="@drawable/bg_forget"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:id="@+id/forget_ll"
+        android:layout_marginTop="@dimen/x24">
+        <EditText
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/phone"
+            android:drawablePadding="@dimen/x35"
+            android:paddingLeft="@dimen/x24"
+            android:hint="请输入您注册的手机号"
+            android:id="@+id/edt_phone"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/x24"
+            android:layout_marginTop="@dimen/x24"
+            android:background="@color/back_blue" />
+
+        <TextView
+            android:id="@+id/tv_quhao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/x24"
+            android:paddingRight="@dimen/x24"
+            android:text="国际区号"
+            android:drawableRight="@mipmap/loginjiantou"
+            android:drawablePadding="@dimen/x24"
+            android:textColor="@color/back_blue"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+        <EditText
+            android:layout_marginTop="@dimen/x24"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x100"
+            android:visibility="gone"
+            android:drawableLeft="@mipmap/email"
+            android:drawablePadding="@dimen/x35"
+            android:paddingLeft="@dimen/x24"
+            android:hint="请输入您注册的邮箱账号"
+            android:id="@+id/edt_email"
+            android:background="@android:color/transparent"/>
+ />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/c_ececec"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        >
+        <EditText
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/x24"
+            android:hint="请输入验证码"
+            android:drawableLeft="@mipmap/yanzhengma"
+            android:drawablePadding="@dimen/x35"
+            android:inputType="number"
+            android:id="@+id/edt_yanzhenma"
+            android:background="@android:color/transparent"/>
+
+
+        <TextView
+            android:id="@+id/tv_get_yanzhengma"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x50"
+            android:gravity="center"
+            android:background="@drawable/bg_yanzhengma"
+            android:paddingLeft="@dimen/x24"
+            android:paddingRight="@dimen/x24"
+            android:text="获取验证码"
+            android:layout_marginRight="@dimen/x24"
+            android:textColor="@color/c_ffffff"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/c_ececec"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:visibility="visible"
+        android:paddingLeft="@dimen/x24"
+        android:drawableLeft="@mipmap/mima"
+        android:drawablePadding="@dimen/x35"
+        android:hint="请输入4-20数字或字母"
+        android:id="@+id/edt_password"
+        android:background="@android:color/transparent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/c_ececec"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:visibility="visible"
+        android:drawableLeft="@mipmap/mima2"
+        android:drawablePadding="@dimen/x35"
+        android:paddingLeft="@dimen/x24"
+        android:hint="请再次输入密码"
+        android:id="@+id/edt_password_sure"
+        android:background="@android:color/transparent"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:background="@drawable/bg_ok"
+        android:text="下一步"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:gravity="center"
+        android:id="@+id/fg_forget_tv_next"
+        android:layout_margin="@dimen/x60"/>
+</LinearLayout>

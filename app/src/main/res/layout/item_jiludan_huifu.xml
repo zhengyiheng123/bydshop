@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/huifu_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <xyd.com.bydshop.customview.CircleImageView
+            android:id="@+id/huifu_iv_head"
+            android:layout_width="@dimen/x75"
+            android:layout_height="@dimen/x75"
+
+            android:src="@mipmap/touxiang" />
+
+        <TextView
+            android:id="@+id/huifu_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/x24"
+            android:text="张三"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <TextView
+            android:id="@+id/huifu_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x24"
+            android:text="2012.03.05"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/huifu_tv_neirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/huifu_ll"
+        android:layout_marginLeft="@dimen/x99"
+        android:paddingBottom="@dimen/x5"
+        android:paddingRight="@dimen/x24"
+        android:paddingTop="@dimen/x8"
+        android:text="非常好"
+        android:textColor="@color/c_333333"
+        android:textSize="@dimen/tv_24px" />
+
+
+</RelativeLayout>

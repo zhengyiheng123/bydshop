@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCFF">
+<include layout="@layout/base_title"/>
+    <xyd.com.bydshop.recyclerview.ZXLRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/yj_jiludan_rv"
+        android:layout_marginTop="@dimen/x24">
+
+    </xyd.com.bydshop.recyclerview.ZXLRecyclerView>
+</LinearLayout>

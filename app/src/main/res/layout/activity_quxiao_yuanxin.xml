@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F5FE"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_title" />
+
+    <EditText
+        android:id="@+id/qx_yy_edt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x320"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:layout_marginTop="@dimen/x24"
+        android:background="@color/c_ffffff"
+        android:gravity="start"
+        android:textSize="@dimen/tv_24px"
+        android:hint="请填写您取消订单的原因，30个字以内"
+        android:padding="@dimen/x24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x400"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="#D9E9FF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x24"
+            android:paddingTop="@dimen/x36"
+            android:text="您可以直接选择您取消的原因："
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <RadioGroup
+            android:id="@+id/qx_yy_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/x36"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginRight="@dimen/x24"
+            android:layout_marginTop="@dimen/x36"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/qx_yy_rg_rbt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/qx_yuanyin_tv_seclect"
+                android:button="@null"
+                android:text="1.座位已满"
+                android:textSize="@dimen/tv_24px" />
+
+            <RadioButton
+                android:id="@+id/qx_yy_rg_rbt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textColor="@color/qx_yuanyin_tv_seclect"
+                android:text="2.客户想要取消"
+                android:textSize="@dimen/tv_24px" />
+
+            <RadioButton
+                android:id="@+id/qx_yy_rg_rbt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/qx_yuanyin_tv_seclect"
+                android:button="@null"
+                android:text="3.本店厨师临时有事"
+                android:textSize="@dimen/tv_24px" />
+
+            <RadioButton
+                android:id="@+id/qx_yy_rg_rbt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/qx_yuanyin_tv_seclect"
+                android:button="@null"
+                android:text="4.其他"
+                android:textSize="@dimen/tv_24px" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

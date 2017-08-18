@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:00"
+        android:layout_marginTop="12dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/white"
+        android:paddingBottom="4dp"
+        android:paddingLeft="12dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="12dp"
+        android:id="@+id/item_push_time"
+        android:background="@drawable/bg_push_time"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_push"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="您的订单已被取消"
+            android:padding="12dp"
+            android:textColor="@color/back_blue"
+            android:id="@+id/item_push_title"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#666"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您的订单已被取消"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/item_push_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

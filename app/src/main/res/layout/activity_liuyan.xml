@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F5FE"
+    android:orientation="vertical">
+    <include layout="@layout/base_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x480"
+        android:id="@+id/liuyan_edt"
+        android:hint="在这里写下你想对预订人所说的话~"
+        android:gravity="start"
+        android:padding="@dimen/x24"
+        android:textSize="@dimen/tv_24px"
+        android:maxLength="300"
+        android:background="@color/c_ffffff"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/liuyan_cb"
+        android:visibility="gone"
+        android:text="可取消订单"/>
+
+
+</LinearLayout>

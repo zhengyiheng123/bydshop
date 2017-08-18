@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x88"
+    android:background="@color/back_blue"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/title_iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_click_bg"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:src="@mipmap/fanhui1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/title_iv_back"
+        android:gravity="center"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/tv_26px"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/x24"
+        android:gravity="center"
+        android:text="消息"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/tv_24px"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/title_tv_red"
+        android:layout_width="@dimen/x12"
+        android:layout_height="@dimen/x12"
+        android:layout_marginRight="@dimen/x18"
+       android:layout_marginTop="@dimen/x24"
+        android:layout_alignParentRight="true"
+
+        android:background="@drawable/red_radius"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

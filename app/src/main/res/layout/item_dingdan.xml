@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/dingdan_ll"
+    >
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x75"
+
+        android:background="@color/c_ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x24"
+            android:gravity="center_vertical"
+            android:text="到店时间:"
+            android:id="@+id/item_jingdian_tv_time"
+            android:textSize="@dimen/tv_24px"
+            android:textColor="@color/c_333333" />
+
+        <TextView
+            android:id="@+id/item_dingdan_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x24"
+            android:gravity="center_vertical"
+            android:text="2012-01-01   21:00"
+            android:textSize="@dimen/tv_24px"
+            android:textColor="@color/c_333333" />
+
+        <View
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x24"
+            android:gravity="center_vertical"
+            android:text="支付情况:"
+            android:textSize="@dimen/tv_24px"
+            android:textColor="@color/c_333333" />
+
+        <TextView
+            android:id="@+id/item_dingdan_tv_zhifu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginRight="@dimen/x24"
+            android:gravity="center_vertical"
+            android:text="到店支付"
+            android:textSize="@dimen/tv_24px"
+            android:textColor="@color/c_333333" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x160"
+        android:background="@color/c_f7faff">
+
+        <ImageView
+            android:id="@+id/item_dingdan_iv_touxiang"
+            android:layout_width="@dimen/x75"
+            android:layout_height="@dimen/x75"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginTop="@dimen/x12"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x160"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/item_dingdan_iv_touxiang"
+            android:background="@color/c_f7faff">
+
+            <TextView
+                android:id="@+id/item_dingdan_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/x15"
+                android:paddingTop="@dimen/x12"
+                android:text="张三"
+                android:textColor="@color/c_333333"
+
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_dingdan_tv_neirong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_dingdan_tv_name"
+                android:paddingLeft="@dimen/x15"
+                android:paddingTop="@dimen/x8"
+                android:text="预定内容:五菜一汤"
+                android:textColor="@color/c_333333"
+
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_dingdan_tv_renshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_dingdan_tv_neirong"
+                android:paddingLeft="@dimen/x15"
+                android:paddingTop="@dimen/x8"
+                android:text="用餐人数:15人"
+                android:textColor="@color/c_333333"
+
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_dingdan_tv_xinren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/item_dingdan_tv_name"
+                android:paddingLeft="@dimen/x35"
+
+                android:paddingTop="@dimen/x8"
+                android:text="可信任"
+                android:textColor="@color/c_FA4D47"
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_dingdan_tv_zongji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/item_dingdan_tv_neirong"
+                android:paddingRight="@dimen/x24"
+                android:text="总计:50$"
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+        </RelativeLayout>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x82"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/c_ffffff">
+    <View
+        android:layout_width="@dimen/x0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></View>
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/x130"-->
+    <!--android:layout_height="@dimen/x50"-->
+    <!--android:id="@+id/item_dingdan_iv_1"-->
+    <!--android:background="@mipmap/xianlianxi"/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="@dimen/x130"-->
+        <!--android:layout_height="@dimen/x50"-->
+        <!--android:id="@+id/item_dingdan_iv_2"-->
+        <!--android:layout_marginLeft="@dimen/x24"-->
+        <!--android:background="@mipmap/bujiedan"/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="@dimen/x130"-->
+        <!--android:layout_height="@dimen/x50"-->
+        <!--android:layout_marginLeft="@dimen/x24"-->
+        <!--android:id="@+id/item_dingdan_iv_3"-->
+        <!--android:layout_marginRight="@dimen/x24"-->
+        <!--android:background="@mipmap/jiedan"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x50"
+        android:layout_marginLeft="@dimen/x24"
+        android:id="@+id/item_dingdan_iv_1"
+        android:textSize="@dimen/tv_24px"
+        android:textColor="@color/c_666666"
+        android:text="先联系"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@drawable/tag_tv_no_background"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x50"
+        android:layout_marginLeft="@dimen/x24"
+        android:id="@+id/item_dingdan_iv_2"
+        android:textSize="@dimen/tv_24px"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:textColor="@color/c_666666"
+        android:text="拒绝"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@drawable/tag_tv_no_background"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x50"
+        android:layout_marginLeft="@dimen/x24"
+        android:id="@+id/item_dingdan_iv_3"
+        android:textSize="@dimen/tv_24px"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:textColor="@color/back_blue"
+        android:text="接单"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@drawable/tag_tv_yes_background"/>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x24"
+        android:background="@color/c_f7faff"/>
+</LinearLayout>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="商家名称"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_name"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请填写真实的商家信息(必填)"
+            android:textSize="@dimen/tv_24px" />
+
+        <TextView
+            android:id="@+id/rcv_tv_name"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="联系人姓名"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_contact"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请填写真实的联系人姓名（必填）"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_contact"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:gravity="center_vertical"
+           android:visibility="gone"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="电话"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_phone1"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请填写方便用户联系的电话号码（必填）"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_phone1"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="电话2"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_phone2"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请填写方便用户联系的电话号码"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_phone2"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="gone"
+            android:text="aaaaaaaaaaaaaaaaaa"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="Email"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_email"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入方便联系的邮箱号码"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_email"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="微信"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_wx"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入你的微信昵称或微信号"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_wx"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="传真"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_chuanzhen"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入方便联系的传真号码"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_chuanzhen"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="地址"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_address"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入餐厅的详细地址（必填）"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_address"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="gone"
+            android:text="aaaaaaaaaaaaa"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/c_ececec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="地区"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+
+        <TextView
+            android:id="@+id/rcv_tv_area"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:visibility="visible"
+            android:drawableRight="@mipmap/jiantou2"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x24"
+        android:background="#FBFCFE"
+        android:id="@+id/rcv_view_tese"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:layout_marginTop="@dimen/x24"
+        android:id="@+id/rcv_ll_tese"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x80"
+            android:id="@+id/rcv_tv_tese"
+            android:gravity="center_vertical"
+            android:text="请选择经营特色"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <xyd.com.bydshop.flowlayout.TagFlowLayout
+            android:id="@+id/rcv_tfl_tese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x24"
+            app:max_select="-1">
+
+        </xyd.com.bydshop.flowlayout.TagFlowLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x24"
+        android:background="#FBFCFE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="座位数"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_zuowei"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入餐厅座位总数"
+            android:inputType="number"
+            android:textSize="@dimen/tv_24px" />
+        <TextView
+            android:id="@+id/rcv_tv_zuowei"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x24"
+        android:background="#FBFCFE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="停车场"
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <EditText
+            android:id="@+id/rcv_edt_car"
+            android:layout_width="@dimen/x0"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:focusable="false"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请选择餐厅所有的停车场"
+            android:textSize="@dimen/tv_24px" />
+    </LinearLayout>
+
+    <xyd.com.bydshop.flowlayout.TagFlowLayout
+        android:id="@+id/cv_tfl_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x48"
+        android:layout_marginRight="@dimen/x48"
+        android:layout_marginTop="@dimen/x24"
+        app:max_select="-1"></xyd.com.bydshop.flowlayout.TagFlowLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rcv_rl_bouttom"
+        android:background="#FBFCFE">
+
+        <CheckBox
+            android:id="@+id/rcv_tv_mianze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableLeft="@drawable/seclect_jd_shangjia"
+            android:drawablePadding="@dimen/x24"
+            android:paddingLeft="@dimen/x24"
+            android:textSize="@dimen/tv_24px"
+            android:paddingTop="@dimen/x50"
+            android:text="您已阅读并同意帮预定的免责声明" />
+
+        <TextView
+            android:id="@+id/rcv_tv_commit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x80"
+            android:layout_below="@+id/rcv_tv_mianze"
+            android:layout_margin="@dimen/x60"
+            android:background="@drawable/bg_ok"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/c_ffffff"
+            android:textSize="@dimen/tv_24px" />
+    </RelativeLayout>
+</LinearLayout>

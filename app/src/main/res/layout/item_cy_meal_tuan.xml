@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/x24"
+    android:background="@color/c_ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_cy_tuan_iv"
+        android:layout_width="@dimen/x148"
+        android:layout_height="@dimen/x116"
+        android:layout_margin="@dimen/x24"
+        android:src="@mipmap/shangpintu" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_cy_tuan_iv"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/item_cy_tuan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/c_333333"
+            android:textSize="@dimen/tv_24px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/x8"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/item_cy_tuan_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_cy_tuan_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_cy_tuan_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/x8"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/item_cy_tuan_price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_cy_tuan_price5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+            <TextView
+                android:id="@+id/item_cy_tuan_price6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/tv_24px" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
